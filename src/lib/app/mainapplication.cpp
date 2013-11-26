@@ -1149,7 +1149,9 @@ bool MainApplication::restoreStateSlot(QupZilla* window, RestoreData recoveryDat
     else {
         // QTabWidget::count() - count of tabs is not updated after closing
         // recovery tab ...
-        int tabCount = window->tabWidget()->count();
+        // update: it seems with ComboTabBar QTabWidget::count() is updated,
+        // we add pinnedTabCounts to currentTab!
+        int tabCount = window->tabWidget()->pinnedTabsCount();
         RestoreManager::WindowData data = recoveryData.first();
         data.currentTab += tabCount;
         recoveryData.remove(0);
