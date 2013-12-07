@@ -4,17 +4,17 @@
     <message>
         <location filename="../gm_addscriptdialog.ui" line="14"/>
         <source>GreaseMonkey Installation</source>
-        <translation>GreaseMonkey安裝程序</translation>
+        <translation>GreaseMonkey 安裝程序</translation>
     </message>
     <message>
         <location filename="../gm_addscriptdialog.ui" line="51"/>
         <source>&lt;h3&gt;GreaseMonkey Installation&lt;/h3&gt;</source>
-        <translation>&lt;h3&gt;GreaseMonkey安裝程序&lt;/h3&gt;</translation>
+        <translation>&lt;h3&gt;GreaseMonkey 安裝程序&lt;/h3&gt;</translation>
     </message>
     <message>
         <location filename="../gm_addscriptdialog.ui" line="73"/>
         <source>You are about to install this userscript into GreaseMonkey:</source>
-        <translation>您將要把此使用者腳本安裝至GreaseMonkey:</translation>
+        <translation>您將要把此使用者腳本安裝至 GreaseMonkey:</translation>
     </message>
     <message>
         <location filename="../gm_addscriptdialog.ui" line="86"/>
@@ -65,7 +65,7 @@
     <message>
         <location filename="../gm_icon.cpp" line="29"/>
         <source>Open GreaseMonkey settings</source>
-        <translation type="unfinished"/>
+        <translation>開啟 GreaseMonkey 設定</translation>
     </message>
 </context>
 <context>
@@ -157,12 +157,12 @@
     <message>
         <location filename="../settings/gm_settingsscriptinfo.ui" line="138"/>
         <source>Namespace:</source>
-        <translation type="unfinished"/>
+        <translation>命名空間:</translation>
     </message>
     <message>
         <location filename="../settings/gm_settingsscriptinfo.ui" line="155"/>
         <source>Edit in text editor</source>
-        <translation type="unfinished"/>
+        <translation>以文字編輯器編輯</translation>
     </message>
     <message>
         <location filename="../settings/gm_settingsscriptinfo.ui" line="65"/>

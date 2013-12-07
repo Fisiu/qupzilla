@@ -4,7 +4,7 @@
     <message>
         <location filename="../gnomekeyringpasswordbackend.cpp" line="85"/>
         <source>Gnome Keyring</source>
-        <translation>Gnome Keyring : Trousseau de clés GNOME</translation>
+        <translation>Gnome Keyring : Trousseau de clés de GNOME</translation>
     </message>
 </context>
 </TS>

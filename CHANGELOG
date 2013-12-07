@@ -17,6 +17,7 @@ Version 1.5.0
     * cancel upload when trying to upload non-readable files
     * select previous / next engines with ctrl+up/down in websearchbar
     * ask user first before closing all but the current tab from tabbar
+    * last 2 sessions are now backuped in profile directory
     * GreaseMonkey: added icon in statusbar
     * GreaseMonkey: added support for GM_Settings
     * GreaseMonkey: fixed userscripts when first loading plugin
@@ -29,6 +30,8 @@ Version 1.5.0
     * fixed: displaying a lot of RSS feeds in RSS widget in locationbar
     * fixed: enabling disabled rules in AdBlock now works everytime
     * fixed: parsing OpenSearch files with XML declaration
+    * fixed: don't show urls multiple times in url completer
+    * fixed: drag & drop moving folders under bookmarks toolbar
 
 Version 1.4.4
     * released 1 September 2013

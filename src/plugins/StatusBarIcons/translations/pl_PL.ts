@@ -75,7 +75,7 @@
     <message>
         <location filename="../sbi_networkicon.cpp" line="75"/>
         <source>Select proxy</source>
-        <translation type="unfinished"/>
+        <translation>Wybierz proxy</translation>
     </message>
     <message>
         <location filename="../sbi_networkicon.cpp" line="89"/>
@@ -85,7 +85,7 @@
     <message>
         <location filename="../sbi_networkicon.cpp" line="93"/>
         <source>Manage proxies</source>
-        <translation type="unfinished"/>
+        <translation>Zarządzaj proxy</translation>
     </message>
     <message>
         <location filename="../sbi_networkicon.cpp" line="106"/>
@@ -120,7 +120,7 @@
     <message>
         <location filename="../sbi_networkicon.cpp" line="132"/>
         <source>PAC (Proxy Auto-Config)</source>
-        <translation type="unfinished"/>
+        <translation>PAC (Proxy Auto-Config)</translation>
     </message>
     <message>
         <location filename="../sbi_networkicon.cpp" line="136"/>
@@ -154,12 +154,12 @@
     <message>
         <location filename="../sbi_networkicondialog.ui" line="69"/>
         <source>No proxies. You can add proxy by clicking on &lt;b&gt;Add&lt;/b&gt; button.</source>
-        <translation type="unfinished"/>
+        <translation>Brak proxy. Możesz dodać proxy klikając przycisk &lt;b&gt;Dodaj&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../sbi_networkicondialog.ui" line="104"/>
         <source>All changes must be saved with &lt;b&gt;Save&lt;/b&gt; button.</source>
-        <translation type="unfinished"/>
+        <translation>Wszystkie zmiany muszą być potwierdzone przyciskiem &lt;b&gt;Zapisz&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../sbi_networkicondialog.cpp" line="55"/>
@@ -268,12 +268,12 @@
     <message>
         <location filename="../sbi_settingsdialog.ui" line="48"/>
         <source>&lt;h3&gt;StatusBar Icons&lt;/h3&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;h3&gt;Ikona paska statusu&lt;/h3&gt;</translation>
     </message>
     <message>
         <location filename="../sbi_settingsdialog.ui" line="70"/>
         <source>These icons will be displayed in statusbar:</source>
-        <translation type="unfinished"/>
+        <translation>Te ikony będą widoczne na pasku statusu.</translation>
     </message>
     <message>
         <location filename="../sbi_settingsdialog.ui" line="97"/>

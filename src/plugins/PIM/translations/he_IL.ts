@@ -97,7 +97,7 @@
     <message>
         <location filename="../PIM_settings.ui" line="64"/>
         <source>Your personal information that will be used on webpages.</source>
-        <translation>מידע אישי שלך בו יעשה שימוש בעמודי רשת.</translation>
+        <translation>מידע אישי שלך בו ייעשה שימוש בעמודי רשת.</translation>
     </message>
     <message>
         <location filename="../PIM_settings.ui" line="76"/>

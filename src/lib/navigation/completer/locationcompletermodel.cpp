@@ -58,6 +58,8 @@ void LocationCompleterModel::refreshCompletions(const QString &string)
     QList<QUrl> urlList;
     QList<QStandardItem*> itemList;
 
+    // TODO: Those 2 SQL queries can be merged with UNION
+
     if (showType == HistoryAndBookmarks || showType == Bookmarks) {
         QSqlQuery query = createQuery(string, "history.count DESC", urlList, limit, true);
         query.exec();
@@ -212,6 +214,8 @@ QSqlQuery LocationCompleterModel::createQuery(const QString &searchString, const
     for (int i = 0; i < alreadyFound.count(); i++) {
         query.append(QString("AND (NOT %1.url=?) ").arg(table));
     }
+
+    query.append(QString("GROUP BY %1.url ").arg(table));
 
     if (!orderBy.isEmpty()) {
         query.append("ORDER BY " + orderBy);

@@ -4,7 +4,7 @@
     <message>
         <location filename="../kwalletpasswordbackend.cpp" line="48"/>
         <source>KWallet</source>
-        <translation>Kwallet : Trousseau de clés de Kde</translation>
+        <translation>KWallet : Trousseau de clés de Kde</translation>
     </message>
 </context>
 </TS>
